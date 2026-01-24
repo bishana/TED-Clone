@@ -1,0 +1,10 @@
+.section3{
+    background-color: black;
+    height: 106px;
+    color: white;
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}

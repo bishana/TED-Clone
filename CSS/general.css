@@ -1,0 +1,12 @@
+
+p,div{
+    font-family: inter,sans-serif;
+}
+body{
+    margin: 0;
+   }
+.sections{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 32px;
+}
