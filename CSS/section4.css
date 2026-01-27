@@ -1,0 +1,27 @@
+.section4{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(177, 177, 179);
+    padding-bottom: 40px;
+    border-bottom-width: 1px;
+
+}
+.sec4-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+}
+.sec4-text4
+{
+
+}
+.sec4-img{
+display: flex;
+justify-content: right;
+}
+.sec4-img img{
+    width: 763px;
+    height: 404px;
+}

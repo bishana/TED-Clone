@@ -3,8 +3,53 @@
     height: 106px;
     color: white;
     display: grid;
-    grid-template-columns: 100px 1fr 100px;
-    padding-left: 100px;
-    padding-right: 100px;
+    grid-template-columns: 180px 1fr 120px;
+    padding-left: 60px;
+    padding-right: 60px;
+    align-items: center;
 
 }
+.sec3-text1{
+    display: flex;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+    font-size: 28px;
+}
+.sec3-text2{
+    display: flex;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+    font-size: 15px;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.sec3-button{
+    border: 0;
+    background-color: rgb(139, 140, 142);
+    color: rgb(18, 18, 18);
+    padding: 5px 12px 5px 12px;
+    font-size: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.categories{
+    display: flex;
+    overflow-x: auto;
+    display: flex;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+ scrollbar-width: none;
+}
+.category {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
