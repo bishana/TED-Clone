@@ -1,0 +1,22 @@
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section5 div {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.section5 img {
+    width: 100%;
+    max-width: 970px; /* Assuming a standard leaderboard banner or similar, or just let it adjust */
+    height: auto;
+    object-fit: contain;
+}
